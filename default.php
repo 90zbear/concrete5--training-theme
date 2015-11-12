@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- hoge -->
     <?php Loader::element('header_required'); ?>
-    <link href="<?php echo $this->getThemePath(); ?>/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo $this->getThemePath(); ?>/assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?=$view->getStylesheet('bootstrap.less')?>">
     <!-- hoge -->
 
 <style>
